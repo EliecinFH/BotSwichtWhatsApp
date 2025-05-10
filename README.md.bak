@@ -1,0 +1,47 @@
+# Bot WhatsApp com IA
+
+Bot de WhatsApp para automação de atendimento com integração de IA generativa.
+
+## Funcionalidades
+
+- Atendimento automatizado via WhatsApp
+- Integração com OpenAI para respostas inteligentes
+- Sistema de gerenciamento de produtos
+- Processamento de pedidos
+- Análise de sentimentos
+- Histórico de conversas
+- Aprendizado baseado em interações anteriores
+
+## Configuração
+
+1. Clone o repositório
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Configure o arquivo `.env` com suas credenciais
+4. Inicie o servidor:
+   ```bash
+   npm start
+   ```
+
+## Variáveis de Ambiente
+
+Crie um arquivo `.env` com as seguintes variáveis:
+
+- `OPENAI_API_KEY`: Sua chave API da OpenAI
+- `MONGODB_URI`: URI de conexão com MongoDB
+- `PORT`: Porta do servidor (padrão: 3000)
+
+## Uso
+
+1. Inicie o servidor
+2. Escaneie o QR Code com seu WhatsApp
+3. Comece a usar!
+
+## API Endpoints
+
+- `GET /api/products`: Lista todos os produtos
+- `POST /api/products`: Adiciona um novo produto
+
+## Estrutura do Projeto 

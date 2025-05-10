@@ -1,0 +1,69 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+
+# Environment and secrets
+.env*
+*.env
+*.pem
+*.key
+*.crt
+
+# Version control
+.git/
+.gitignore
+.svn/
+.hg/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build and output directories
+dist/
+build/
+out/
+tmp/
+temp/
+*.tmp
+
+# Test and coverage artifacts
+test/
+tests/
+coverage/
+*.test.js
+*.spec.js
+
+# Documentation
+README*
+*.md
+docs/
+
+# Project-specific cache and session data
+.wwebjs_auth/
+.wwebjs_cache/
+logs/
+uploads/
+
+# Miscellaneous
+local/
+.local/
+config.local.*
+*.local.yml
+
+# Database and data files
+*.db
+*.db-journal
+*.ldb
+*.dat
+
+# Crash and session files
+Crashpad/
+*.log
+
+# Exclude Docker-related files from ignore
+!Dockerfile*
+!docker-compose*
