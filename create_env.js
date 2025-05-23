@@ -24,7 +24,7 @@ RATE_LIMIT_MAX=100
 OPENAI_API_KEY=sua_chave_api_openai
 
 # WhatsApp
-PROPRIETARIO_NUMERO=557196177635@c.us
+PROPRIETARIO_NUMERO=55seuNumero@c.us
 
 # Configurações do Bot
 BOT_NAME=BotWhatsApp
